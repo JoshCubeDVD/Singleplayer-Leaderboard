@@ -17,7 +17,8 @@ VALUES
 ('Joshua', 160, 10),
 ('Justin', 230, 12),
 ('Christopher', 170, 10),
-('Neil', 190, 11);
+('Neil', 190, 11),
+('Christian', 200, 11);
 
 -- Displays the Leaderboard
 SELECT
