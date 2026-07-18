@@ -4,10 +4,25 @@ USE SPLeaderboardDB;
 
 -- Sets up the players table
 
-CREATE TABLE Player (
+CREATE TABLE Players (
   PlayerID INT AUTO_INCREMENT PRIMARY KEY,
   PlayerName VARCHAR(50) NOT NULL,
   Points INT DEFAULT 0,
   GamesPlayed INT DEFAULT 0,
-  
 );
+
+-- Add Players
+INSERT INTO Players (PlayerName, Points, GamesPlayed)
+VALUES
+('Joshua', 160, 10),
+('Justin', 230, 12),
+('Christopher', 170, 10),
+('Neil', 190, 11);
+
+-- Displays the Leaderboard
+SELECT
+  PlayerName,
+  Points,
+  GamesPlayed
+FROM Players
+ORDER BY Points DESC;
