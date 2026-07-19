@@ -1,5 +1,6 @@
 CREATE DATABASE SPLeaderboardDB;
 
+-- Use Leaderboard Database
 USE SPLeaderboardDB;
 
 -- Sets up the players table
