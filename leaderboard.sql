@@ -9,7 +9,6 @@ CREATE TABLE Players (
   PlayerID INT AUTO_INCREMENT PRIMARY KEY,
   PlayerName VARCHAR(50) NOT NULL,
   Points INT DEFAULT 0,
-  GamesPlayed INT DEFAULT 0,
 );
 
 -- Add Players
@@ -24,7 +23,6 @@ VALUES
 -- Displays the Leaderboard
 SELECT
   PlayerName,
-  Points,
-  GamesPlayed
+  Points
 FROM Players
 ORDER BY Points DESC;
