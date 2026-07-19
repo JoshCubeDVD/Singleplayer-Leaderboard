@@ -14,11 +14,11 @@ CREATE TABLE Players (
 -- Add Players
 INSERT INTO Players (PlayerName, Points, GamesPlayed)
 VALUES
-('Joshua', 160, 10),
-('Justin', 230, 12),
-('Christopher', 170, 10),
-('Neil', 190, 11),
-('Christian', 200, 11);
+('Joshua', 160),
+('Justin', 230),
+('Christopher', 170),
+('Neil', 190),
+('Christian', 200);
 
 -- Displays the Leaderboard
 SELECT
